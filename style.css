@@ -1,0 +1,143 @@
+/* Colors and fonts */
+body {
+	background: rgb(250, 238, 224);
+	color: rgb(102, 128, 106);
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	font-family: 'Shalimar', cursive;
+}
+
+h1 {
+	color: rgb(102, 128, 106);
+	font-size: 70px;
+	line-height: 14px;
+}
+
+h2 {
+	color: rgb(153, 167, 153);
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 9px;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	color: rgb(153, 167, 153);
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+/*Links*/
+
+a {
+	text-decoration: none;
+	color: rgb(102, 128, 106);
+}
+a:hover {
+	color: rgb(102, 128, 106);
+}
+
+
+/*Custom design with Class*/
+
+.container {
+	width: 1100px;
+	margin: 30px auto;
+}
+
+@media (max-width: 960px) {
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px;
+	}
+}
+
+
+.card-brown {
+	background-color: rgb(219, 208, 192);
+	padding: 40px;
+	border-radius: 2px;
+	margin: 40px 0px;
+	text-align: center;
+}
+
+.card-text {
+	background-color: rgb(219, 208, 192);
+	padding: 40px;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.card-title {
+	background-color: rgb(219, 208, 192);
+	padding: 40px;
+	border-radius: 2px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.img-centered {
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-green {
+	background-color: rgb(153, 167, 153);
+	color: white;
+	padding: 14px 20px;
+	border-radius: 2px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline > li {
+	display: inline;
+	padding: 0px 20px;
+	margin: 0px auto;
+}
+
+.list-inline i {
+	font-size:50px;
+	color: rgb(153, 167, 153);
+}
+.list-inline i:hover {
+	font-size:50px;
+	color: rgb(180, 198, 166);
+}
+
+/*ID*/
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
